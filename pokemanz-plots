@@ -1,0 +1,117 @@
+library(ggplot2)
+library(repr)
+library(dplyr)
+library(tidyr)
+library(Hmisc)
+library(corrplot)
+
+
+pokemanz <- read.csv("C://Users//lenovo//Desktop//pokemon.csv", header =T, stringsAsFactors = F)
+head(pokemanz)
+str(pokemanz)
+describe(pokemanz)
+
+##Basic plots
+
+qplot(pokemanz$Total, geom ="histogram", binwidth = 6, main = "Histogram for Pokemon Total",
+      xlab = "Total", fill = I("blue"), col = I("red"), alpha = I(.2),
+      xlim = c(200, 800))
+
+qplot(pokemanz$Speed, geom ="histogram", binwidth = 3, main = "Histogram for Pokemon Speed",
+      xlab = "Speed", fill = I("blue"), col = I("red"), alpha = I(.2),
+      xlim = c(1, 200))
+
+qplot(pokemanz$Attack, geom ="histogram", binwidth = 3, main = "Histogram for Pokemon Attack",
+      xlab = "Attack", fill = I("blue"), col = I("red"), alpha = I(.2),
+      xlim = c(1, 200))
+
+qplot(pokemanz$SpAtk, geom ="histogram", binwidth = 3, main = "Histogram for Pokemon Special Attack",
+      xlab = "Special Attack", fill = I("blue"), col = I("red"), alpha = I(.2),
+      xlim = c(1, 200))
+
+qplot(pokemanz$Defense, geom ="histogram", binwidth = 3, main = "Histogram for Pokemon Defense",
+      xlab = "Defense", fill = I("blue"), col = I("red"), alpha = I(.2),
+      xlim = c(1, 200))
+
+qplot(pokemanz$SpDef, geom ="histogram", binwidth = 3, main = "Histogram for Pokemon Special Defense",
+      xlab = "Special Defense", fill = I("blue"), col = I("red"), alpha = I(.2),
+      xlim = c(15, 200))
+
+
+ggplot(data=pokemanz, aes(pokemanz$Total)) +
+  geom_histogram(aes(y=..density..),
+                 breaks = seq(200, 800, by = 15),
+                 col = "red",
+                 fill = "green",
+                 alpha = .5) +
+  geom_density(col = 2) +
+  labs(title = "Histogram of Pokemon Total") +
+  labs(x = "Total", y = "Count")
+
+ggplot(data=pokemanz, aes(pokemanz$Speed)) +
+  geom_histogram(aes(y=..density..),
+                 breaks = seq(0, 200, by = 5),
+                 col = "red",
+                 fill = "green",
+                 alpha = .5) +
+  geom_density(col = 2) +
+  labs(title = "Histogram of Pokemon Speed") +
+  labs(x = "Speed", y = "Count")
+
+ggplot(data=pokemanz, aes(pokemanz$Attack)) +
+  geom_histogram(aes(y=..density..),
+                 breaks = seq(1, 200, by = 5),
+                 col = "red",
+                 fill = "green",
+                 alpha = .5) +
+  geom_density(col = 2) +
+  labs(title = "Histogram of Pokemon Attack") +
+  labs(x = "Attack", y = "Count")
+
+ggplot(data=pokemanz, aes(pokemanz$SpAtk)) +
+  geom_histogram(aes(y=..density..),
+                 breaks = seq(1, 200, by = 5),
+                 col = "red",
+                 fill = "green",
+                 alpha = .5) +
+  geom_density(col = 2) +
+  labs(title = "Histogram of Pokemon Special Attack") +
+  labs(x = "Special Attack", y = "Count")
+
+ggplot(data=pokemanz, aes(pokemanz$Defense)) +
+  geom_histogram(aes(y=..density..),
+                 breaks = seq(1, 200, by = 5),
+                 col = "red",
+                 fill = "green",
+                 alpha = .2) +
+  geom_density(col = 2) +
+  labs(title = "Histogram of Pokemon Defense") +
+  labs(x = "Defense", y = "Count")
+
+ggplot(data=pokemanz, aes(pokemanz$SpDef)) +
+  geom_histogram(aes(y=..density..),
+                 breaks = seq(10, 200, by = 5),
+                 col = "red",
+                 fill = "green",
+                 alpha = .2) +
+  geom_density(col = 2) +
+  labs(title = "Histogram of Pokemon Special Defense") +
+  labs(x = "Special Defense", y = "Count")
+
+##Type 1 Pokemon
+pokemanz_plot <- ggplot(pokemanz, aes(x=Total, fill=Type1)) + geom_density(alpha = 1)
+pokemanz_plot <- pokemanz_plot + 
+  facet_wrap(~Type1) + 
+  labs(x = "Total", y = "Density", title = "Pokemon Total Score") +
+  theme(axis.text.x = element_blank(), axis.ticks.x = element_blank())
+
+pokemanz_plot
+
+##Type 2 Pokemon
+pokemanz_plot01 <- ggplot(pokemanz, aes(x=Total, fill=Type2)) + geom_density(alpha = 1)
+pokemanz_plot01 <- pokemanz_plot + 
+  facet_wrap(~Type2) + 
+  labs(x = "Total", y = "Density", title ="Pokemon Total Score") +
+  theme(axis.text.x = element_blank(), axis.ticks.x = element_blank())
+
+pokemanz_plot01
