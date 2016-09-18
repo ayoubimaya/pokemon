@@ -15,8 +15,8 @@
     <li>SP Atk: The base modifier for special attacks</li>
     <li>SP Def: The stat for protection against special attacks</li>
     <li>Speed: Determines which pokemon attacks first in each round</li>
-	</ul><br>
-	<h3> Acquire the data:</h3>
+	</ul>
+	<h2> Acquire the data:</h2>
 	
 		<a href="https://github.com/ayoubimaya/pokemanz/blob/master/Pokemon.csv">pokemanz repo</a> 
 		<br><a href="http://www.pokemon.com/us/pokedex/">pokemon.com</a> 
