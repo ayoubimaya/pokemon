@@ -4,7 +4,7 @@
 <center><img src="http://i68.tinypic.com/339mxrq.png" alt="Pokemon"></center>
 <p> <h2>About the data:</h2>
 <br>The data set has 721 Pokemon, and is strictly about the pokemon video game series (not Pokemon GO or the pokemon card game). 
-<br>The data is described as follows:<br>
+<br><br>The data is described as follows:<br><br>
 	<ul style="list-style-type:disc">
 	<li><b>#:</b> Pokemon ID</li>
     <li><b>Name: </b>Each pokemon's name</li>
