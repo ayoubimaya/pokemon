@@ -109,7 +109,7 @@ pokemanz_plot
 
 ##Type 2 Pokemon
 pokemanz_plot01 <- ggplot(pokemanz, aes(x=Total, fill=Type2)) + geom_density(alpha = 1)
-pokemanz_plot01 <- pokemanz_plot + 
+pokemanz_plot01 <- pokemanz_plot01 + 
   facet_wrap(~Type2) + 
   labs(x = "Total", y = "Density", title ="Pokemon Total Score") +
   theme(axis.text.x = element_blank(), axis.ticks.x = element_blank())
