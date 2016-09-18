@@ -6,7 +6,7 @@ library(Hmisc)
 library(corrplot)
 
 
-pokemanz <- read.csv("C://..//pokemon.csv", header =T, stringsAsFactors = F)
+pokemanz <- read.csv("C://..//pokemon.csv", header = T, stringsAsFactors = F)
 head(pokemanz)
 str(pokemanz)
 describe(pokemanz)
