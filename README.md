@@ -14,7 +14,17 @@
     <li>Defense: The stat for protection against normal attacks</li>
     <li>SP Atk: The base modifier for special attacks</li>
     <li>SP Def: The stat for protection against special attacks</li>
-    <li>Speed: Determines which pokemon attacks first in each round</p></li>
-	</ul>
+    <li>Speed: Determines which pokemon attacks first in each round</li>
+	</ul><br>
+	<h3> Acquire the data:</h3>
+	
+		<a href="https://github.com/ayoubimaya/pokemanz/blob/master/Pokemon.csv">pokemanz repo</a> 
+		<br><a href="http://www.pokemon.com/us/pokedex/">pokemon.com</a> 
+		<br><a href="http://pokemondb.net/pokedex">pokemondb</a> 
+		<br><a href="http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number">bulbedia</a>
+	 
+	 </p>
+	
+	
 </body>
 </html>
