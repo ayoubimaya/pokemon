@@ -27,7 +27,7 @@ The dataset contains 721 Pokemon, and is about the pokemon video games (not Poke
 		<a href="http://www.pokemon.com/us/pokedex/">pokemon.com</a> 
 		<br><a href="http://pokemondb.net/pokedex">pokemondb</a> 
 		<br><a href="http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number">bulbedia</a>
-	 <br> Note: I did not collect the data for the dataset.
+	 <br> <br> <font size="6">Note: I did not collect the data for the dataset.</font>
 	 </p>
 	
 	
