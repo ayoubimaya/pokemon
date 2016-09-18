@@ -1,7 +1,6 @@
 <html>
 <body>
 <center><img src="http://www.lostarkgames.com/images/pokemonlogo.jpg"></center><br>
-<center><img src="http://i67.tinypic.com/f0qe03.jpg" alt="Pokemon"></center>
 <p> <h2>About the data:</h2>
 	<ul style="list-style-type:disc">
 	<li>#: Pokemon ID</li>
