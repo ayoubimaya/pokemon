@@ -3,7 +3,7 @@
 <h1>Pokemanz</h1>
 <center><img src="http://i68.tinypic.com/339mxrq.png" alt="Pokemon"></center>
 <p> <h2>About Data:</h2>
-The dataset contains 721 Pokemon, and is about the pokemon video games (not Pokemon GO or the pokemon card game). 
+The dataset contains 721 Pokemon, and is about the <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon_%28video_game_series%29">pokemon video games</a> (not Pokemon GO or the pokemon card game). 
 <br><br>The data described below:<br><br>
 	<ul style="list-style-type:disc">
 	<li><b>#:</b> Pokemon ID</li>
