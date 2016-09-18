@@ -1,7 +1,7 @@
     #: Pokemon ID
     Name: Each pokemon's name
     Type 1: Properties for pokemon and their moves (each type has its own strengths and weaknesses)
-    Type 2: Some pokemon has two types
+    Type 2: Some pokemon have two types
     Total: The sum of all stats below
     HP: Hit points (health)
     Attack: The base modifier for normal attacks
