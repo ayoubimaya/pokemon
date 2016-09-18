@@ -3,7 +3,7 @@
 <h1>Pokemanz</h1>
 <center><img src="http://i68.tinypic.com/339mxrq.png" alt="Pokemon"></center>
 <p> <h2>About Data:</h2>
-<small>The dataset contains 721 Pokemon, and is about the pokemon video game series (not Pokemon GO or the pokemon card game). 
+The dataset contains 721 Pokemon, and is about the pokemon video games (not Pokemon GO or the pokemon card game). 
 <br><br>The data described below:<br><br>
 	<ul style="list-style-type:disc">
 	<li><b>#:</b> Pokemon ID</li>
@@ -19,14 +19,14 @@
     <li><b>Speed: </b>Determines which pokemon attacks first in each round</li>
 	<li><b>Generation:</b> The generation of the pokemon
 	<li><b>Legendary:</b> Whether or not pokemon is legendary
-	</ul></small>
+	</ul>
 	<h2> Data Acquisition:</h2>
-	<small>
-		<a href="https://github.com/ayoubimaya/pokemanz/blob/master/Pokemon.csv">pokemanz repo</a> </small>
+	
+		<a href="https://github.com/ayoubimaya/pokemanz/blob/master/Pokemon.csv">pokemanz repo</a> 
 	<h2>Data Source:</h2>
-		<small><a href="http://www.pokemon.com/us/pokedex/">pokemon.com</a> 
+		<a href="http://www.pokemon.com/us/pokedex/">pokemon.com</a> 
 		<br><a href="http://pokemondb.net/pokedex">pokemondb</a> 
-		<br><a href="http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number">bulbedia</a></small>
+		<br><a href="http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number">bulbedia</a>
 	 
 	 </p>
 	
