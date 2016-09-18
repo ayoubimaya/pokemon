@@ -3,7 +3,7 @@
 <h1>Pokemanz</h1>
 <center><img src="http://i68.tinypic.com/339mxrq.png" alt="Pokemon"></center>
 <p> <h2>About Data:</h2>
-The dataset contains 721 Pokemon, and is about the <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon_%28video_game_series%29">pokemon video games</a> (not Pokemon GO or the pokemon card game). 
+The dataset contains 721 Pokemon, and is about the <a target="_blank" href="https://en.wikipedia.org/wiki/Pok%C3%A9mon_%28video_game_series%29">pokemon video games</a> (not Pokemon GO or the pokemon card game). 
 <br><br>The data described below:<br><br>
 	<ul style="list-style-type:disc">
 	<li><b>#:</b> Pokemon ID</li>
@@ -24,9 +24,9 @@ The dataset contains 721 Pokemon, and is about the <a href="https://en.wikipedia
 	
 		<a href="https://github.com/ayoubimaya/pokemanz/blob/master/Pokemon.csv">pokemanz repo</a> 
 	<h2>Data Source:</h2>
-		<a href="http://www.pokemon.com/us/pokedex/">pokemon.com</a> 
-		<br><a href="http://pokemondb.net/pokedex">pokemondb</a> 
-		<br><a href="http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number">bulbedia</a>
+		<a target="_blank" href="http://www.pokemon.com/us/pokedex/">pokemon.com</a> 
+		<br><a target="_blank" href="http://pokemondb.net/pokedex">pokemondb</a> 
+		<br><a target="_blank" href="http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number">bulbedia</a>
 	 <h2> </h2><font size="6">Note: I did not collect the data for the dataset.</font>
 	 </p>
 	
