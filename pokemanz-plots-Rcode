@@ -37,6 +37,9 @@ qplot(pokemanz$SpDef, geom ="histogram", binwidth = 3, main = "Histogram for Pok
       xlab = "Special Defense", fill = I("blue"), col = I("red"), alpha = I(.2),
       xlim = c(15, 200))
 
+qplot(pokemanz$HP, geom ="histogram", binwidth = 3, main = "Histogram for Pokemon HP",
+      xlab = "HP", fill = I("blue"), col = I("red"), alpha = I(.2),
+      xlim = c(15, 200))
 
 ggplot(data=pokemanz, aes(pokemanz$Total)) +
   geom_histogram(aes(y=..density..),
@@ -83,7 +86,7 @@ ggplot(data=pokemanz, aes(pokemanz$Defense)) +
                  breaks = seq(1, 200, by = 5),
                  col = "red",
                  fill = "green",
-                 alpha = .2) +
+                 alpha = .5) +
   geom_density(col = 2) +
   labs(title = "Histogram of Pokemon Defense") +
   labs(x = "Defense", y = "Count")
@@ -93,25 +96,76 @@ ggplot(data=pokemanz, aes(pokemanz$SpDef)) +
                  breaks = seq(10, 200, by = 5),
                  col = "red",
                  fill = "green",
-                 alpha = .2) +
+                 alpha = .5) +
   geom_density(col = 2) +
   labs(title = "Histogram of Pokemon Special Defense") +
   labs(x = "Special Defense", y = "Count")
 
+ggplot(data=pokemanz, aes(pokemanz$HP)) +
+  geom_histogram(aes(y=..density..),
+                 breaks = seq(10, 200, by = 5),
+                 col = "red",
+                 fill = "green",
+                 alpha = .5) +
+  geom_density(col = 2) +
+  labs(title = "Histogram of Pokemon Special Defense") +
+  labs(x = "HP", y = "Count")
+
 ##Type 1 Pokemon
-pokemanz_plot <- ggplot(pokemanz, aes(x=Total, fill=Type1)) + geom_density(alpha = 1)
-pokemanz_plot <- pokemanz_plot + 
-  facet_wrap(~Type1) + 
-  labs(x = "Total", y = "Density", title = "Pokemon Total Score") +
-  theme(axis.text.x = element_blank(), axis.ticks.x = element_blank())
-
-pokemanz_plot
-
-##Type 2 Pokemon
-pokemanz_plot01 <- ggplot(pokemanz, aes(x=Total, fill=Type2)) + geom_density(alpha = 1)
+pokemanz_plot01 <- ggplot(pokemanz, aes(x=Total, fill=Type1)) + geom_density(alpha = 1)
 pokemanz_plot01 <- pokemanz_plot01 + 
-  facet_wrap(~Type2) + 
-  labs(x = "Total", y = "Density", title ="Pokemon Total Score") +
+  facet_wrap(~Type1) + 
+  labs(x = "Total", y = "Density", title = "Pokemon Total Score (Type 1)") +
   theme(axis.text.x = element_blank(), axis.ticks.x = element_blank())
 
 pokemanz_plot01
+
+
+pokemanz_plot02 <- ggplot(pokemanz, aes(x=Total, fill=Type1)) + geom_density(alpha = 1)
+pokemanz_plot02<- pokemanz_plot02 + 
+  facet_wrap(~Type1) + 
+  labs(x = "Speed", y = "Density", title ="Pokemon Speed Score") +
+  theme(axis.text.x = element_blank(), axis.ticks.x = element_blank())
+
+pokemanz_plot02
+
+
+pokemanz_plot03 <- ggplot(pokemanz, aes(x=Attack, fill=Type1)) + geom_density(alpha = 1)
+pokemanz_plot03 <- pokemanz_plot03 + 
+  facet_wrap(~Type1) + 
+  labs(x = "Attack", y = "Density", title ="Pokemon Attack Score") +
+  theme(axis.text.x = element_blank(), axis.ticks.x = element_blank())
+
+pokemanz_plot03
+
+pokemanz_plot04 <- ggplot(pokemanz, aes(x=SpAtk, fill=Type1)) + geom_density(alpha = 1)
+pokemanz_plot04 <- pokemanz_plot04 + 
+  facet_wrap(~Type1) + 
+  labs(x = "Special Attack", y = "Density", title ="Pokemon Special Attack Score") +
+  theme(axis.text.x = element_blank(), axis.ticks.x = element_blank())
+
+pokemanz_plot04
+
+pokemanz_plot05 <- ggplot(pokemanz, aes(x=Defense, fill=Type1)) + geom_density(alpha = 1)
+pokemanz_plot05<- pokemanz_plot05 + 
+  facet_wrap(~Type1) + 
+  labs(x = "Defense", y = "Density", title ="Pokemon Defense Score") +
+  theme(axis.text.x = element_blank(), axis.ticks.x = element_blank())
+
+pokemanz_plot05
+
+pokemanz_plot06 <- ggplot(pokemanz, aes(x=SpDef, fill=Type1)) + geom_density(alpha = 1)
+pokemanz_plot06<- pokemanz_plot06 + 
+  facet_wrap(~Type1) + 
+  labs(x = "Special Defense", y = "Density", title ="Pokemon Special Defense Score") +
+  theme(axis.text.x = element_blank(), axis.ticks.x = element_blank())
+
+pokemanz_plot06
+
+pokemanz_plot07 <- ggplot(pokemanz, aes(x=HP, fill=Type1)) + geom_density(alpha = 1)
+pokemanz_plot07<- pokemanz_plot07 + 
+  facet_wrap(~Type1) + 
+  labs(x = "HP", y = "Density", title ="Pokemon HP Score") +
+  theme(axis.text.x = element_blank(), axis.ticks.x = element_blank())
+
+pokemanz_plot07
