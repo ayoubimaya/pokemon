@@ -24,7 +24,7 @@
 	
 		<a href="https://github.com/ayoubimaya/pokemanz/blob/master/Pokemon.csv">pokemanz repo</a> 
 	<h2>Data Source:</h2>
-		<br><a href="http://www.pokemon.com/us/pokedex/">pokemon.com</a> 
+		<a href="http://www.pokemon.com/us/pokedex/">pokemon.com</a> 
 		<br><a href="http://pokemondb.net/pokedex">pokemondb</a> 
 		<br><a href="http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number">bulbedia</a>
 	 
