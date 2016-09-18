@@ -1,7 +1,7 @@
 <html>
 <body>
 <h1>Pokemanz</h1>
-<center><img src="http://i67.tinypic.com/f0qe03.jpg" alt="Pokemon"></center>
+<center><img src="http://i68.tinypic.com/339mxrq.png" alt="Pokemon"></center>
 <p> <h2>About the data:</h2>
 	<ul style="list-style-type:disc">
 	<li><b>#:</b> Pokemon ID</li>
