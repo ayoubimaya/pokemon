@@ -4,17 +4,17 @@
 <center><img src="http://i67.tinypic.com/f0qe03.jpg" alt="Pokemon"></center>
 <p> <h2>About the data:</h2>
 	<ul style="list-style-type:disc">
-	<li>#: Pokemon ID</li>
-    <li>Name: Each pokemon's name</li>
-    <li> Type 1: Properties for pokemon and their moves (each type has its own strengths and weaknesses)</li>
-    <li>Type 2: Some pokemon have two types</li>
-    <li>Total: The sum of all stats below</li>
-    <li>HP: Hit points (health)</li>
-    <li>Attack: The base modifier for normal attacks</li>
-    <li>Defense: The stat for protection against normal attacks</li>
-    <li>SP Atk: The base modifier for special attacks</li>
-    <li>SP Def: The stat for protection against special attacks</li>
-    <li>Speed: Determines which pokemon attacks first in each round</li>
+	<li><b>#:</b> Pokemon ID</li>
+    <li><b>Name: </b>Each pokemon's name</li>
+    <li><b>Type 1: </b>Properties for pokemon and their moves (each type has its own strengths and weaknesses)</li>
+    <li><b>Type 2: </b>Some pokemon have two types</li>
+    <li><b>Total: </b>The sum of all stats below</li>
+    <li><b>HP: </b>Hit points (health)</li>
+    <li><b>Attack: </b>The base modifier for normal attacks</li>
+    <li><b>Defense:</b> The stat for protection against normal attacks</li>
+    <li><b>SP Atk: </b>The base modifier for special attacks</li>
+    <li><b>SP Def: </b>The stat for protection against special attacks</li>
+    <li><b>Speed: </b>Determines which pokemon attacks first in each round</li>
 	</ul>
 	<h2> Acquire the data:</h2>
 	
