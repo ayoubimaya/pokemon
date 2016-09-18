@@ -15,6 +15,8 @@
     <li><b>SP Atk: </b>The base modifier for special attacks</li>
     <li><b>SP Def: </b>The stat for protection against special attacks</li>
     <li><b>Speed: </b>Determines which pokemon attacks first in each round</li>
+	<li><b>Generation:</b> The generation of the pokemon
+	<li><b>Legendary:</b> Whether or not pokemon is legendary
 	</ul>
 	<h2> Acquire the data:</h2>
 	
