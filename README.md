@@ -1,7 +1,7 @@
 <html>
 <body>
 <h1>Pokemanz</h1>
-<center><img src="http://i68.tinypic.com/339mxrq.png" alt="Pokemon"></center>
+<center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/English_Pok%C3%A9mon_logo.svg/2000px-English_Pok%C3%A9mon_logo.svg.png" alt="Pokemon"></center>
 <p> <h2>About Data:</h2>
 The dataset contains 721 Pokemon, and is about the <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon_%28video_game_series%29" target="_blank"> pokemon video games</a> (not Pokemon GO or the pokemon card game). 
 <br><br>The data described below:<br><br>
