@@ -6,7 +6,7 @@ library(Hmisc)
 library(corrplot)
 
 
-pokemanz <- read.csv("C://..//pokemon.csv", header = T, stringsAsFactors = F)
+pokemanz <- read.csv("C://Users//lenovo//Desktop//pokemon.csv", header = T, stringsAsFactors = F)
 head(pokemanz)
 str(pokemanz)
 describe(pokemanz)
@@ -169,3 +169,5 @@ pokemanz_plot07<- pokemanz_plot07 +
   theme(axis.text.x = element_blank(), axis.ticks.x = element_blank())
 
 pokemanz_plot07
+
+
