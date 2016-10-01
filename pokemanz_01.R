@@ -169,12 +169,3 @@ pokemanz_plot07<- pokemanz_plot07 +
   theme(axis.text.x = element_blank(), axis.ticks.x = element_blank())
 
 pokemanz_plot07
-
-pokemanz_plot08 <- ggplot(pokemanz, aes(x=HP, fill=Generation)) + geom_density(alpha = 1)
-pokemanz_plot08<- pokemanz_plot08 + 
-  facet_wrap(~Generation) + 
-  labs(x = "Generation", y = "Density", title ="Pokemon Generation Score") +
-  theme(axis.text.x = element_blank(), axis.ticks.x = element_blank())
-
-pokemanz_plot08
-
