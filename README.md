@@ -23,7 +23,7 @@ Dataset includes Pokemon from Generations 1-6. </p>
 	</ul>
 	<h2> Data Acquisition:</h2>
 	
-		<p><a href="https://github.com/ayoubimaya/pokemanz/blob/master/Old%20Pokemon%20Dataset/Pokemon.csv">pokemanz repo</a> </p>
+		<p><a href="#">pokemanz repo</a> </p>
 	<h2>Data Source:</h2>
 		<p><a href="http://www.pokemon.com/us/pokedex/" target="_blank">pokemon.com</a> 
 		<br><a href="http://pokemondb.net/pokedex" target="_blank">pokemondb</a> 
@@ -51,7 +51,7 @@ Dataset includes Pokemon from Generations 1-7.</p>
 	
 	<h2> Data Acquisition:</h2>
 	
-		<a href="https://github.com/ayoubimaya/pokemanz/blob/master/New%20Pokemon%20Dataset/pokemon_new.csv">pokemanz repo</a> 
+		<a href="#">pokemanz repo</a> 
 
 	<p><font size="6">Note: I did not collect the data for the dataset.</font></p>
 	 
