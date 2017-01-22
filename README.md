@@ -5,7 +5,7 @@
 <p> <h2>About Old Pokemon Dataset:</h2>
 <p>The dataset contains 721 Pokemon, and is about the <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon_%28video_game_series%29" target="_blank"> pokemon video games</a> (not Pokemon GO or the pokemon card game). 
 Dataset includes Pokemon from Generations 1-6. </p>
-<br><br>The data described below:<br><br>
+<br>The data described below:<br><br>
 	<ul style="list-style-type:disc">
 	<li><b>#:</b> Pokemon ID</li>
     <li><b>Name: </b>Each pokemon's name</li>
@@ -23,17 +23,17 @@ Dataset includes Pokemon from Generations 1-6. </p>
 	</ul>
 	<h2> Data Acquisition:</h2>
 	
-		<a href="https://github.com/ayoubimaya/pokemanz/blob/master/Old%20Pokemon%20Dataset/Pokemon.csv">pokemanz repo</a> 
+		<p><a href="https://github.com/ayoubimaya/pokemanz/blob/master/Old%20Pokemon%20Dataset/Pokemon.csv">pokemanz repo</a> </p>
 	<h2>Data Source:</h2>
-		<a href="http://www.pokemon.com/us/pokedex/" target="_blank">pokemon.com</a> 
+		<p><a href="http://www.pokemon.com/us/pokedex/" target="_blank">pokemon.com</a> 
 		<br><a href="http://pokemondb.net/pokedex" target="_blank">pokemondb</a> 
-		<br><a href="http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number" target="_blank">bulbedia</a>
+		<br><a href="http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number" target="_blank">bulbedia</a></p>
 	 
 
 <h2>About New Pokemon Dataset:</h2>	 
 <p>The dataset contains 802 Pokemon, and is about the <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon_%28video_game_series%29" target="_blank"> pokemon video games</a> (not Pokemon GO or the pokemon card game).
 Dataset includes Pokemon from Generations 1-7.</p>
-<br><br>The data described below:<br><br>
+<br>The data described below:<br><br>
 	<ul style="list-style-type:disc">
 	<li><b>id:</b> Pokemon ID</li>
     <li><b>Name: </b>Each pokemon's name</li>
@@ -53,7 +53,7 @@ Dataset includes Pokemon from Generations 1-7.</p>
 	
 		<a href="https://github.com/ayoubimaya/pokemanz/blob/master/New%20Pokemon%20Dataset/pokemon_new.csv">pokemanz repo</a> 
 
-	<h2> </h2><font size="6">Note: I did not collect the data for the dataset.</font>
+	<p><font size="6">Note: I did not collect the data for the dataset.</font></p>
 	 
 	
 </body>
