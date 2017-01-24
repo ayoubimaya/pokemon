@@ -22,7 +22,7 @@ The data described below:<br><br>
 	</ul>
 	<h2> Data Acquisition:</h2>
 	
-		<a href="https://github.com/ayoubimaya/pokemon/blob/master/Old%20Pokemon%20Dataset/Pokemon.csv">pokeon repo</a> 
+		<a href="https://github.com/ayoubimaya/pokemon/blob/master/Old%20Pokemon%20Dataset/Pokemon.csv">pokemon repo</a> 
 	<h2>Data Source:</h2>
 		<a href="http://www.pokemon.com/us/pokedex/" target="_blank">pokemon.com</a> 
 		<br><a href="http://pokemondb.net/pokedex" target="_blank">pokemondb</a> 
