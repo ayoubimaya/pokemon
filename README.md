@@ -1,6 +1,6 @@
 <html>
 <body>
-<h1>Pokemanz</h1>
+<h1>Pokemon</h1>
 <center><img src="http://i65.tinypic.com/x38m6e.png" alt="Pokemon"></center>
 <p> <h2>About Old Pokemon Dataset:</h2>
 The dataset contains 721 Pokemon, and is about the <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon_%28video_game_series%29" target="_blank"> pokemon video games</a> (not Pokemon GO or the pokemon card game). 
@@ -22,7 +22,7 @@ The data described below:<br><br>
 	</ul>
 	<h2> Data Acquisition:</h2>
 	
-		<a href="https://github.com/ayoubimaya/pokemanz/blob/master/Old%20Pokemon%20Dataset/Pokemon.csv">pokemanz repo</a> 
+		<a href="https://github.com/ayoubimaya/pokemon/blob/master/Old%20Pokemon%20Dataset/Pokemon.csv">pokeon repo</a> 
 	<h2>Data Source:</h2>
 		<a href="http://www.pokemon.com/us/pokedex/" target="_blank">pokemon.com</a> 
 		<br><a href="http://pokemondb.net/pokedex" target="_blank">pokemondb</a> 
@@ -51,7 +51,7 @@ The data described below:
 	</ul>
 	<h2> Data Acquisition:</h2>
 	
-		<a href="https://github.com/ayoubimaya/pokemanz/blob/master/New%20Pokemon%20Dataset/pokemon_new.csv">pokemanz repo</a> 
+		<a href="https://github.com/ayoubimaya/pokemon/blob/master/New%20Pokemon%20Dataset/pokemon_new.csv">pokemon repo</a> 
 	 <h2> </h2><font size="6">Note: I did not collect the data for the datasets.</font>
 	 </p>	 
 	
