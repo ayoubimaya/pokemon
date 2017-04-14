@@ -2,7 +2,7 @@
 <body>
 <h1>Pokemon</h1>
 <center><img src="http://i65.tinypic.com/x38m6e.png" alt="Pokemon"></center>
-<p> <h2>About Old Pokemon Dataset:</h2>
+<h2>About Old Pokemon Dataset:</h2>
 The dataset contains 721 Pokemon, and is about the <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon_%28video_game_series%29" target="_blank"> pokemon video games</a> (not Pokemon GO or the pokemon card game). 
 The data described below:<br><br>
 	<ul style="list-style-type:disc">
@@ -20,15 +20,7 @@ The data described below:<br><br>
 	<li><b>Generation:</b> The generation of the pokemon
 	<li><b>Legendary:</b> Whether or not pokemon is legendary
 	</ul>
-	<h2> Data Acquisition:</h2>
 	
-		<a href="https://github.com/ayoubimaya/pokemon/blob/master/Old%20Pokemon%20Dataset/Pokemon.csv">pokemon repo</a> 
-	<h2>Data Source:</h2>
-		<a href="http://www.pokemon.com/us/pokedex/" target="_blank">pokemon.com</a> 
-		<br><a href="http://pokemondb.net/pokedex" target="_blank">pokemondb</a> 
-		<br><a href="http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number" target="_blank">bulbedia</a>
-	 </p>
-
 
 
 <p> <h2>About New Pokemon Dataset:</h2>
