@@ -41,11 +41,7 @@ The data described below:
     <li><b>SP Def: </b>The stat for protection against special attacks</li>
     <li><b>Speed: </b>Determines which pokemon attacks first in each round</li>
 	</ul>
-	<h2> Data Acquisition:</h2>
 	
-		<a href="https://github.com/ayoubimaya/pokemon/blob/master/New%20Pokemon%20Dataset/pokemon_new.csv">pokemon repo</a> 
-	 <h2> </h2><font size="6">Note: I did not collect the data for the datasets.</font>
-	 </p>	 
 	
 </body>
 </html>
