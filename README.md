@@ -34,7 +34,7 @@ The data described below:<br><br>
 <p> <h2>About New Pokemon Dataset:</h2>
 The dataset contains 802 Pokemon, and is about the <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon_%28video_game_series%29" target="_blank"> pokemon video games</a> (not Pokemon GO or the pokemon card game). 
 This dataset specifically contains Pokemon from Generation 7 (Pokemon Sun and Moon).
-The data described below:
+The data described below:<br>
 	<ul style="list-style-type:disc">
 	<li><b>id:</b> Pokemon ID</li>
 	<li><b>Index:</b> Pokedex number</li>
@@ -53,7 +53,7 @@ The data described below:
 	<p>
 		<a href="https://github.com/ayoubimaya/pokemon/blob/master/New%20Pokemon%20Dataset/pokemon_new.csv">pokemon repo</a> 
 	 </p>
-	 <h2> </h2><font size="6">Note: I did not collect the data for the datasets.</font>
+	 <br><h2> </h2><font size="6">Note: I did not collect the data for the datasets.</font>
 		 
 	
 </body>
