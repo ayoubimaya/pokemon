@@ -53,7 +53,7 @@ The data described below:
 	<p>
 		<a href="https://github.com/ayoubimaya/pokemon/blob/master/New%20Pokemon%20Dataset/pokemon_new.csv">pokemon repo</a> 
 	 </p>
-	 <br><h2> </h2><font size="6">Note: I did not collect the data for the datasets.</font>
+	 <h2> </h2><font size="6">Note: I did not collect the data for the datasets.</font>
 		 
 	
 </body>
