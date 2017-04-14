@@ -2,9 +2,9 @@
 <body>
 <h1>Pokemon</h1>
 <center><img src="http://i65.tinypic.com/x38m6e.png" alt="Pokemon"></center>
-<p> <h2>About Old Pokemon Dataset:</h2>
-The dataset contains 721 Pokemon, and is about the <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon_%28video_game_series%29" target="_blank"> pokemon video games</a> (not Pokemon GO or the pokemon card game). 
-The data described below:<br><br>
+<h2>About Old Pokemon Dataset:</h2>
+<p>The dataset contains 721 Pokemon, and is about the <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon_%28video_game_series%29" target="_blank"> pokemon video games</a> (not Pokemon GO or the pokemon card game). 
+The data described below:<br>
 	<ul style="list-style-type:disc">
 	<li><b>#:</b> Pokemon ID</li>
     <li><b>Name: </b>Each pokemon's name</li>
@@ -31,8 +31,8 @@ The data described below:<br><br>
 
 
 
-<p> <h2>About New Pokemon Dataset:</h2>
-The dataset contains 802 Pokemon, and is about the <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon_%28video_game_series%29" target="_blank"> pokemon video games</a> (not Pokemon GO or the pokemon card game). 
+<h2>About New Pokemon Dataset:</h2>
+<p>The dataset contains 802 Pokemon, and is about the <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon_%28video_game_series%29" target="_blank"> pokemon video games</a> (not Pokemon GO or the pokemon card game). 
 This dataset specifically contains Pokemon from Generation 7 (Pokemon Sun and Moon).
 The data described below:<br>
 	<ul style="list-style-type:disc">
